@@ -1,0 +1,16 @@
+body{max-width:1100px;margin:0 auto;padding:16px;background:#fbf9f3;color:#111;font-family:Georgia,"Times New Roman",serif}
+.masthead{text-align:center;border-bottom:4px double #111;padding-bottom:8px}
+.masthead h1{font-family:"Old English Text MT","UnifrakturMaguntia",Georgia,serif;font-size:3.6em;margin:.1em 0}
+.meta{display:flex;justify-content:space-between;font-size:.85em;border-bottom:1px solid #111;padding:4px 0;text-transform:uppercase}
+.tagline{font-style:italic}
+.banner{display:grid;grid-template-columns:1fr 1fr;border-bottom:2px solid #111}
+.ticker{text-align:center;padding:14px;border-right:1px solid #111}.ticker:last-child{border:0}
+.ticker h3{margin:0;text-transform:uppercase;letter-spacing:2px}.big{font-size:2.2em;font-weight:bold}
+h2{border-bottom:2px solid #111;text-transform:uppercase;letter-spacing:1px;font-size:1.3em}
+table{width:100%;border-collapse:collapse}th,td{padding:6px;border-bottom:1px solid #ccc;text-align:right}th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+.up{color:#0a6b2b}.down{color:#a40e0e}.na,.note{color:#777;font-style:italic}
+.columns{column-count:2;column-gap:28px;column-rule:1px solid #bbb}
+.story{break-inside:avoid;margin-bottom:14px}.story h4{margin:.2em 0}.story a{color:#111}.story .src{font-size:.8em;color:#555}
+.kicker{font-variant:small-caps;font-weight:bold;border-top:1px solid #111;margin-top:6px}
+footer{border-top:4px double #111;margin-top:20px;padding-top:6px;font-size:.8em;text-align:center}
+@media(max-width:700px){.banner{grid-template-columns:1fr}.columns{column-count:1}}

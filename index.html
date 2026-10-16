@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Portfolio Times</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="masthead"><div class="meta"><span id="today"></span><span id="updated">Updating…</span></div>
+<h1>The Portfolio Times</h1><div class="tagline">Bitcoin · Silver · Your Stocks</div></header>
+<section class="banner">
+ <div class="ticker"><h3>Bitcoin</h3><div class="big" id="btc-usd">—</div><div id="btc-nok">—</div><div class="chg" id="btc-chg"></div></div>
+ <div class="ticker"><h3>Silver <small>(troy oz)</small></h3><div class="big" id="xag-usd">—</div><div id="xag-nok">—</div><div class="chg" id="fx"></div></div>
+</section>
+<section><h2>Market Report</h2><table><thead><tr><th>Company</th><th>Ticker</th><th>Price</th><th>Change</th><th>%</th></tr></thead><tbody id="stocks"></tbody></table>
+<p class="note" id="keynote"></p>
+<details><summary>Stock data settings (Finnhub API key)</summary><p>Free key at <a href="https://finnhub.io/register" target="_blank">finnhub.io</a>. Stored only in this browser (localStorage).</p>
+<input id="key" placeholder="Finnhub API key"> <button id="save">Save</button> <button id="clear">Clear</button></details></section>
+<section><h2>Latest News</h2><div id="news" class="columns"></div></section>
+<footer>Data: CoinGecko, gold-api.com, open.er-api.com, Finnhub. Not investment advice.</footer>
+<script src="config.js"></script><script src="app.js"></script></body></html>
